@@ -182,3 +182,80 @@ div button{
     opacity: 0.3 !important;
 }
 
+/* focus styles */
+
+.focus{
+    max-width: 1140px;
+    margin: 0 auto;
+   padding-top: 71px;
+   padding-bottom: 71px;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    margin-bottom: 92px;
+}
+.focus h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.focus p{
+    text-align: center;
+    font-size: 18px;
+    opacity: 0.5;
+    margin: 0px;
+}
+.focus div img{
+    text-align: center;
+    border-radius: 48px;
+}
+.focus div{
+    text-align: center;
+}
+.focus div button{
+    margin: 20px;
+}
+
+/* form style */
+
+.form{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 71px;
+}
+
+.form div h1{
+    max-width: 528px;
+    font-size: 97px;
+}
+.main-form{
+    display: flex;
+    flex-direction: column;
+    width: 490px;
+    height: 480;
+}
+.main-form input, textarea{
+    margin-bottom: 19px;
+    padding: 17px 264px 17px 29px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 1px 1px gainsboro;
+    margin: 10px 10px 10px;
+    margin-left: 0px;
+
+}
+.main-form label{
+    font-size: 18px;
+    fill-opacity: 0.7;
+}
+.main-form input[type="submit"]{
+    text-align: center;
+    padding: 0px;
+    padding: 17px;
+    font-weight: bold;
+    color: white;
+    background-color: #4E47FF;
+}
