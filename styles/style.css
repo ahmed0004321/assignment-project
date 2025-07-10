@@ -3,6 +3,7 @@ body{
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
+    background-color: #F5F8FE;
 }
 
 /* section 1 styles */
@@ -68,4 +69,65 @@ div button{
      font-weight: 300;
      background-color: #4E47FF;
      color: white;
+}
+
+/* action section style*/
+
+.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    max-height: 328px;
+    margin: 0 auto;
+    margin-bottom: 116px;
+}
+.action .action-left{
+    text-align: start;
+    max-width: 430px;
+}
+.action-left button{
+    margin-top: 23px;
+}
+.action-right img{
+    border-radius: 48px;
+}
+.action-left h3{
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+.action-left p{
+    font-size: 20px;
+    opacity: 0.4;
+}
+
+/* users styles */
+
+.user{
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: #E5E7FD;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 24px;
+}
+.user-input{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.user-input .output h3{
+    font-size: 80px;
+    color: #4E47FF;
+    margin: 0px;
+}
+.user-input .output p{
+    font-size: 18px;
+    opacity: 0.5;
+}
+.user h3{
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
 }
