@@ -283,6 +283,8 @@ div button a{
     font-weight: bold;
     color: white;
     background-color: #4E47FF;
+    cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 /* footer style*/
@@ -326,3 +328,8 @@ button:hover {
     background-color: #2980b9;
     transform: scale(1.03);
   }
+
+input[type="submit"]:hover {
+    background-color: #2980b9;
+    transform: scale(1.03);
+}
