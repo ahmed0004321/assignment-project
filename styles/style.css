@@ -102,6 +102,7 @@ div button a{
 .action-left button{
     margin-top: 23px;
     margin-left: 0px;
+    margin-right: 30px;
     cursor: pointer;
   transition: all 0.3s ease;
 }
