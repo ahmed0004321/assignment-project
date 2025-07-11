@@ -196,6 +196,7 @@ div button a{
 .main-put{
     height: 270px;
     background-color: #FAFCFF;
+    transition: all 0.3s ease;
 }
 .customer div .opacity{
     opacity: 0.3 !important;
@@ -331,5 +332,8 @@ button:hover {
 
 input[type="submit"]:hover {
     background-color: #2980b9;
+    transform: scale(1.03);
+}
+.main-put:hover{
     transform: scale(1.03);
 }
